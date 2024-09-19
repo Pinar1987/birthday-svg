@@ -1,0 +1,50 @@
+h1{
+    color:firebrick
+}
+
+
+p{text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+}
+
+p{
+    color:blueviolet;
+    margin: 75px;
+    }
+
+h4{
+    color: coral;
+}
+body{
+    background-color: deepskyblue;
+}
+
+footer img {
+    width: 150px;
+}
+.unicorn {
+    display: block;
+    margin: 20px auto;
+    width: 200px; /* Başlangıç boyutu */
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.unicorn:hover {
+    width: 250px; /* Büyütme boyutu */
+    height: auto; /* Yükseklik otomatik ayarlansın */
+}
+
+svg {
+  position: relative;
+  animation-name: cakeanimation;
+  animation-duration: 4s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;  
+}
+
+@keyframes cakeanimation {
+    0%   {left:0px; top:0px;}
+    50%  {left:200px; top:0px;}
+    100% {left:0px; top:0px;}
+  }
