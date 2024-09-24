@@ -26,13 +26,13 @@ footer img {
 .unicorn {
     display: block;
     margin: 20px auto;
-    width: 200px; /* Başlangıç boyutu */
+    width: 200px; 
     transition: width 2s, height 2s, transform 2s;
 }
 
 .unicorn:hover {
-    width: 250px; /* Büyütme boyutu */
-    height: auto; /* Yükseklik otomatik ayarlansın */
+    width: 250px; 
+    height: auto; 
 }
 
 svg {
