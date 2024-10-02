@@ -21,7 +21,7 @@ body{
 }
 
 footer img {
-    width: 150px;
+    width: 250px;
 }
 .unicorn {
     display: block;
@@ -48,3 +48,5 @@ svg {
     50%  {left:200px; top:0px;}
     100% {left:0px; top:0px;}
   }
+
+ 
